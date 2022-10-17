@@ -36,7 +36,6 @@ header nav li a:hover{
 
 }
 section{
-    margin-left: 60px;
     height: 100vh;
 }
 .home{
@@ -44,21 +43,50 @@ section{
     margin: 0 0;
     margin-top: -20px;
 }
+.about{
+    padding-left: 20px;
+    height: 90vh;
+}
 /* PROJECTS SECTION */
-.project-container {
-    position: relative;
-    max-width: 500px;
-    margin: 0 auto;
-  }
-.content{
-  position: absolute;
-  bottom: 0;
-  top: 5px;
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1;
-  width: 100px;
-  padding: 20px;
+.projects{
+    background-color: #333;
+}
+.title h2{
+	color: white;
+	font-size: 50px;
+	text-align: center;
+
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card{
+	height: 400px;
+	width: 300px;
+	padding: 20px 35px;
+	background: #fff;
+	border-radius: 30px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+button
+{
+    width: 200px;
+    background: #333;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: #04AA6D;
 }
 img{
     display: flex;
@@ -70,6 +98,9 @@ h1{
     text-align: center;
 }
 /* SERVICES */
+.services{
+    height: 70vh;
+}
   .services-container{
     position: relative;
     display: flex ;
@@ -100,7 +131,6 @@ h1{
 /* CONTACT SIDE  */
 
 .contact{
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,6 +204,7 @@ footer{
     align-items: center;
     text-align: center;
     background-color: #04AA6D;
-    height: 5vh;
+    height: 10vh;
+    font-size: 20px;
     color: white;
 }
